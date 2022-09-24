@@ -1,3 +1,5 @@
+import pymunk
+
 from disco.level.parse import LevelObject, ParsedLine, parse_level
 from disco.platform import Platform
 
@@ -5,6 +7,8 @@ from disco.platform import Platform
 class Level:
     def __init__(self, objs: list[ParsedLine]):
         self.objs = objs
+        self.space = pymunk.Space()
+        self.space.gravity = 0, -981
 
     @staticmethod
     def from_path(path: str) -> "Level":
@@ -15,4 +19,4 @@ class Level:
                 x1, y1 = map(float, topleft.split(" "))
                 x2, y2 = map(float, bottomright.split(" "))
                 objs.append(Platform(x1, y1, x2 - x1, y2 - y1, 0, None))
-        return objs
+        return Level(objs)

@@ -1,7 +1,5 @@
 import pygame
-import pymunk
 
-from disco.platform import Platform
 import disco.player
 from disco.level import Level
 
@@ -12,7 +10,7 @@ pygame.display.set_caption("disco")
 
 lev = Level.from_path("levels/01.disco-level")
 
-player = disco.player.Player()
+player = disco.player.Player(lev.space)
 
 run = True
 while run:
@@ -22,4 +20,3 @@ while run:
 
     window.fill((255, 0, 0))
     pygame.display.update()
-#    player.space.step(0.02)
