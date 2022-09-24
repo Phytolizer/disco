@@ -10,7 +10,6 @@ class Level:
         objs: list[ParsedLine] = []
         for obj in parse_level(path):
             if obj.ty == LevelObject.WALL:
-                print(globals())
                 raise NotImplementedError(
                     f"{__name__}.Level.from_path needs Platform at this point"
                 )
