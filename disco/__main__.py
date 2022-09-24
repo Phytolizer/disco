@@ -1,4 +1,3 @@
-import torch
-import torchnlp
+import pygame
 
 print("Hello World")
