@@ -2,6 +2,6 @@
 
 pushd "$(dirname "$0")" >/dev/null
 
-poetry run python -m disco
+PYGAME_HIDE_SUPPORT_PROMPT=1 poetry run python -m disco
 
 popd >/dev/null
