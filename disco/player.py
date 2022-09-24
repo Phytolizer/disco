@@ -3,11 +3,8 @@ import pymunk
 class Player:
 
 
-    def __init__(self, level):
+    def __init__(self, space: pymunk.Space):
     #### Maybe change this to be imported or inherited from the camera class
-        space = pymunk.Space() # Create a space relevant to the camera
-        space.gravity = 0, -981 # set gravity for the space
-
         player = pymunk.Body() # create the player body
         player.position = 100,100
 

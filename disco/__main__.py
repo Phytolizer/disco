@@ -12,7 +12,7 @@ pygame.display.set_caption("disco")
 
 lev = Level.from_path("levels/01.disco-level")
 
-player = disco.player.Player()
+player = disco.player.Player(lev.space)
 
 run = True
 while run:

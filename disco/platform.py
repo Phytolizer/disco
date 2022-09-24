@@ -1,3 +1,5 @@
+from disco.collidable import Collidable
+from disco.renderable import Renderable
 
 
 class Platform(Collidable,Renderable):
