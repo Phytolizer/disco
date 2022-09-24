@@ -1,5 +1,6 @@
 import pygame
 import pymunk
+from disco.platform import Platform
 
 pygame.init()
 
