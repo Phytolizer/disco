@@ -1,5 +1,5 @@
 import pymunk
-
+from disco import moveable, collidable, transformable, renderable
 
 class Player:
     def __init__(self, space: pymunk.Space):
