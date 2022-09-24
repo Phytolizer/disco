@@ -3,6 +3,7 @@ from numpy import array
 
 
 class Transformable:
+    @property
     @abstractmethod
-    def getTransform(self) -> array:
+    def transform(self) -> array:
         pass
