@@ -6,7 +6,7 @@ authors = ["Kyle Coffey <kylecoffey1999@gmail.com>", "Robert Crager <robert.crag
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 pygame = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
