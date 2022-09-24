@@ -1,3 +1,3 @@
-class Renderable:
-    def __init__(self):
-        
+class Renderable(Transformable):
+    def __init__(self,sprite):
+        self.sprite = sprite

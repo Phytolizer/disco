@@ -1,12 +1,8 @@
-from numpy import array
 
-class Platform:
+
+class Platform(Collidable,Renderable):
     def __init__(self,x,y,width,height,theta,sprite):
-        self.transform = np.array(  [x,y],
-                                    [width,height],
-                                    [theta,0])
-        self.sprite = sprite
+        pass
 
-    def collides(entity):
 
     

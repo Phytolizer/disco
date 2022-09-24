@@ -1,7 +1,7 @@
 import pygame
 import pymunk
-from disco.platform import Platform
 
+from disco.platform import Platform
 from disco.level import Level
 
 pygame.init()
