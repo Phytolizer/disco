@@ -1,6 +1,7 @@
+import pymunk
+
 from disco.level.parse import LevelObject, ParsedLine, parse_level
 from disco.platform import Platform
-import pymunk
 
 
 class Level:
