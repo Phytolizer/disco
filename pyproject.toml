@@ -2,7 +2,7 @@
 name = "disco"
 version = "0.1.0"
 description = ""
-authors = ["Kyle Coffey <kylecoffey1999@gmail.com>", "Robert Crager <robert.crager18@gmail.com>","Gehrig Wilcox <lougehrig10@gmail.com>"]
+authors = ["Kyle Coffey <kylecoffey1999@gmail.com>", "Robert Crager <robert.crager18@gmail.com>","Gehrig Wilcox <gehrigwilcox@protonmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
