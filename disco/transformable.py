@@ -6,5 +6,5 @@ class Transformable:
                                 [width,height],
                                 [theta,0])
     
-    def getTransform():
-        return transform
+    def getTransform(self):
+        return self.transform
