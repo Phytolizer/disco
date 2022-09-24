@@ -1,5 +1,6 @@
 import pygame
 import pymunk
+from disco.platform import Platform
 
 import disco.player
 from disco.level import Level
