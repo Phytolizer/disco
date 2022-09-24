@@ -7,8 +7,8 @@ from disco.platform import Platform
 class Level:
     def __init__(self, objs: list[ParsedLine]):
         self.objs = objs
-        self.space = pymunk.Space()  # Create a space relevant to the camera
-        self.space.gravity = 0, -981  # set gravity for the space
+        self.space = pymunk.Space()
+        self.space.gravity = 0, -981
 
     @staticmethod
     def from_path(path: str) -> "Level":
