@@ -9,8 +9,5 @@ class Collidable(Transformable):
         super().__init__()
 
     @abstractmethod
-    def collides(other: "Collidable") -> bool:
-        pass
-
-    def collides(other):
+    def collides(self,other: "Collidable") -> bool:
         pass
