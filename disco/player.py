@@ -10,3 +10,4 @@ class Player:
         shape = pymunk.Poly.create_box(player)
         shape.mass = 10
         space.add(player, shape)
+    
