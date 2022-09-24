@@ -14,4 +14,4 @@ class Platform(Collidable, Renderable):
         theta: float,
         sprite: pygame.sprite.Sprite,
     ):
-        pass
+        super().__init__()
